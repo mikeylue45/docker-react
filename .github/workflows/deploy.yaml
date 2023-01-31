@@ -24,8 +24,7 @@ jobs:
           application_name: docker-react_EB
           environment_name: Dockerreacteb-env
           existing_bucket_name: elasticbeanstalk-ca-central-1-976519569741
-          bucket_path: "docker-react_EB"
+          bucket_path: docker-react_EB
           region: ca-central-1
           version_label: ${{ github.sha }}
           deployment_package: deploy.zip
-          
