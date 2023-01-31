@@ -21,10 +21,10 @@ jobs:
         with:
           aws_access_key: ${{ secrets.AWS_ACCESS_KEY }}
           aws_secret_key: ${{ secrets.AWS_SECRET_KEY }}
-          application_name: docker_v2
-          environment_name: Dockerv2-env
+          application_name: dockerv3
+          environment_name: Dockerv3-env
           existing_bucket_name: elasticbeanstalk-us-east-1-976519569741
-          bucket_path: docker_v2
+          bucket_path: dockerv3
           region: us-east-1
           version_label: ${{ github.sha }}
           use_existing_version_if_available: true
